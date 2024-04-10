@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<script  type="module" src="./src/lizi.js"></script>
 <script type="module">
-import { add } from "./build/release.js";
-document.body.innerText = add(1, 2);
+
+    
 </script>
 </head>
-<body></body>
+<body>
+    <!-- <input type="number" id="fibInput"/> -->
+    <!-- <button id="calFib">计算fib</button>
+    <span id="res">结果为:</span> -->
+    <div style="display:flex;gap:50px">
+    <div>
+        <canvas width="500" height="500" id="canvas1"></canvas>
+    </div>
+    <div>
+    <canvas width="500" height="500" id="canvas2"></canvas>
+    </div>
+</div>
+</body>
 </html>
